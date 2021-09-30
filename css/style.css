@@ -1,12 +1,21 @@
+/*구글 font*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+/*모든 html 기본값 초기화*/
 @import "reset.css";
+
+/*Yellow colour*/
 @import "variables.css";
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screens */
-@import "screens/login.css";
+@import "screen/login.css";
+
+/*구글폰트로 부터 받아온 폰트를 전체 적용*/
 body {
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
 }
