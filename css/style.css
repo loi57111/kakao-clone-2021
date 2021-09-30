@@ -10,9 +10,11 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screens */
 @import "screen/login.css";
+@import "screen/friends.css";
 
 /*구글폰트로 부터 받아온 폰트를 전체 적용*/
 body {
