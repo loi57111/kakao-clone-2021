@@ -42,7 +42,41 @@
 
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Tuesday, June 30, 2021</div>
+      <div class="message-row">
+        <img
+          src="https://scontent.fmel5-1.fna.fbcdn.net/v/t1.18169-9/13669671_1111912718894480_160990138090676129_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=sE-60v2ZXT0AX-PD2cg&_nc_ht=scontent.fmel5-1.fna&oh=df762b19835ab037ec268f9762d94e6a&oe=61865436"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Sam Lee</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Yo what's up!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message.." />
+        <i class="far fa-smile-wink"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
 
     <!-- fontawesome에서 아이콘 가져오기위한 키트코드-->
     <script
