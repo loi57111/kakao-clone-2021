@@ -5,11 +5,24 @@
 
 #chat-screen .alt-header,
 #chat-screen .status-bar {
+  background-color: #abc1d1;
+  top: 0;
   position: fixed;
   width: 100%;
   box-sizing: border-box;
 }
+#chat-screen .status-bar {
+  z-index: 2;
+}
 
 #chat-screen .alt-header {
   top: 10px;
+  z-index: 1;
+}
+/*z-index
+default: 0
+숫자가 작을수록 낮은 layer, 클수록 위의 layer
+fixed, absolute position에 이용 가능.*/
+.main-chat {
+  margin-top: 150px;
 }
